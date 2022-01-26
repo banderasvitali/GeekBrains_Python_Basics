@@ -17,3 +17,7 @@ def currency_rate(currency_code):
 
         if currency_code.upper() == code:
             return f'{data_time}: курс {code}: {result} руб'
+        
+        
+if __name__ == '__main__':
+    print(currency_rate(input('Введите код валюты: ')))
